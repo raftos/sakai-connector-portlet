@@ -317,7 +317,7 @@
 		<!-- special profile to automatically add the pluto invoker config to the built webapp, and to specify the final name of the webapp
 		This means you can just drop the war file into tomcat/webapps and it is ready to go -->
 		<profile>
-			<id>pluto-assemble</id>
+			<id>pluto-assemble</id><!--??-->
 			<build>
 				<finalName>${war.name}</finalName>
 				<plugins>
